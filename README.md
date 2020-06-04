@@ -15,11 +15,11 @@ The simple goal for this microservice, was to get data from various supported ch
 
 Example endpoint hit (parameters determine getDataType and in this twitter case, the TwitterScreenName to use):
 
-![example endpoint hit](images/example-hit-twitter-endpoint.png?raw=true "Example endpoint hit")
+- ![example endpoint hit](images/example-hit-twitter-endpoint.png?raw=true "Example endpoint hit")
 
-Example JSON output (in thus twitter case, 'twitterUsers' includes followers_count and 'twitterUserTimeline includes retweet and like counts):
+Example JSON output (in this twitter case, 'twitterUsers' includes followers_count and 'twitterUserTimeline includes retweet and like counts):
 
-![examle twitter JSON output](images/example-twitter-json-output.png?raw=true "examle twitter JSON output")
+- ![examle twitter JSON output](images/example-twitter-json-output.png?raw=true "examle twitter JSON output")
 
 Supported channels to get data from:
 1. the GitHub API; for everything from project waters/stars/forks to releases.
