@@ -1,0 +1,29 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "A generated Eclipse Codewind application",
+  "engines": {
+    "node": "^12.0.0"
+  },
+  "config": {
+    "entrypoint": "server/server.js"
+  },
+  "scripts": {
+    "start": "node $npm_package_config_entrypoint"
+  },
+  "dependencies": {
+    "appmetrics-dash": "^5.2.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "log4js": "^4.0.2",
+    "time-stamp":"^2.2.0",
+    "archiver": "^3.0.0",
+    "puppeteer": "^2.1.1",
+    "twitter": "^1.7.1"
+  },
+  "nodemonConfig": {
+    "env": {
+      "NODE_HEAPDUMP_OPTIONS": "nosignal"
+    }
+  }
+}

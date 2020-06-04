@@ -1,2 +1,23 @@
-# smarteradvocacy-smarter-advocacy-get-data
-A cloud-native microservice to get data from various Social Media channels/web pages and return JSON
+# Smarter Advocacy
+
+This cloud-native express/node.js microservice, is part of a set which comprise a 'Smarter Advocacy' capability. 
+
+# This specific repo
+
+![overview picture](images/overview.png?raw=true "Diagramatic overview of this picture")
+
+Tips how to build, deploy and run this cloud-native express/node.js microservice, are in a 
+[separate BLOG here](https://github.com/user/repo/blob/branch/other_file.md).
+Within IBM, this microservice is [deployed on a OpenShift cluster here](http://smart-adv-get-data-default.apps.riffled.os.fyre.ibm.com/).
+
+The simple goal for this microservice, was to get data from various supported channels and return well organised consistent business data needed in a JSON document. 
+
+Supported channels to get data from:
+1. the GitHub API; for everything from project waters/stars/forks to releases.
+2. the IBM GitHub API; for everything from project waters/stars/forks to releases.
+3. the Twitter API; for user profile data like followers, friends and data about every tweet they'd made, with retweet/likes etc.
+4. YouTube video channels and individual videos, where metrics such as views, likes and dislikes were captured.
+
+Note: support for many more channels was planned, but yet to be implemented (such as get data from Google Analytics API).
+
+Note: currently, the microservice is hardcoded to push the resultant JSON document to a hardcorded COUCHDB instance (but we should probably split the microservice into two parts, the first to produce the JSON document with an option where to the send it and the second to handle store in a COUCHDB. Other places to send/store the data could also be supported in future). 
