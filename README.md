@@ -4,13 +4,20 @@ This cloud-native express/node.js microservice, is part of a set which comprise 
 
 # This specific repo
 
-![overview picture](images/overview.png?raw=true "Diagramatic overview of this picture")
-
 Tips how to build, deploy and run this cloud-native express/node.js microservice, are in a 
 [separate BLOG here](https://medium.com/nikcanvin/how-to-build-a-docker-microservice-application-and-deploy-to-openshift-fdb0769f1b9f).
 Within IBM, this microservice is [deployed on a OpenShift cluster here](http://smart-adv-get-data-default.apps.riffled.os.fyre.ibm.com/).
 
+![overview picture](images/overview.png?raw=true "Diagramatic overview of this picture")
+
+
 The simple goal for this microservice, was to get data from various supported channels and return well organised consistent business data needed in a JSON document. 
+
+Example endpoint hit (parameters determine getDataType and in this twitter case, the TwitterScreenName to use):
+![example endpoint hit](images/example-hit-twitter-endpoint.png?raw=true "Example endpoint hit")
+
+Example JSON output (in thus twitter case, 'twitterUsers' includes followers_count and 'twitterUserTimeline includes retweet and like counts):
+![examle twitter JSON output](images/example-twitter-json-output.png?raw=true "examle twitter JSON output")
 
 Supported channels to get data from:
 1. the GitHub API; for everything from project waters/stars/forks to releases.
