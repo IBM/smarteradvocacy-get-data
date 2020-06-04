@@ -15,7 +15,7 @@ The simple goal for this microservice, was to get data from various supported ch
 Supported channels to get data from:
 1. the GitHub API; for everything from project waters/stars/forks to releases.
 2. the IBM GitHub API; for everything from project waters/stars/forks to releases.
-3. the Twitter API; for user profile data like followers, friends and data about every tweet they'd made, with retweet/likes etc.
+3. the Twitter API; for user profile data like followers, friends and data about every tweet they'd made, with retweet/likes. Note: detailed engagement data (such as impressions and link clicks) are not supported, as Twitter does not make this data freely available in the API being used by this microservice. 
 4. YouTube video channels and individual videos, where metrics such as views, likes and dislikes were captured.
 
 Note: support for many more channels was planned, but yet to be implemented (such as get data from Google Analytics API).
