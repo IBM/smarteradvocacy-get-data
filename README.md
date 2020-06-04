@@ -14,9 +14,11 @@ Within IBM, this microservice is [deployed on a OpenShift cluster here](http://s
 The simple goal for this microservice, was to get data from various supported channels and return well organised consistent business data needed in a JSON document. 
 
 Example endpoint hit (parameters determine getDataType and in this twitter case, the TwitterScreenName to use):
+
 ![example endpoint hit](images/example-hit-twitter-endpoint.png?raw=true "Example endpoint hit")
 
 Example JSON output (in thus twitter case, 'twitterUsers' includes followers_count and 'twitterUserTimeline includes retweet and like counts):
+
 ![examle twitter JSON output](images/example-twitter-json-output.png?raw=true "examle twitter JSON output")
 
 Supported channels to get data from:
