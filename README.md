@@ -1,6 +1,6 @@
 # Smarter Advocacy
 
-This cloud-native express/node.js microservice, is part of a set which comprise a 'Smarter Advocacy' capability. 
+This cloud-native express/node.js microservice, is part of a set which comprise a 'Smarter Advocacy' capability. More details about this will follow soon.
 
 # The microservice in this repo
 
