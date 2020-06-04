@@ -11,7 +11,7 @@ Tips how to build, deploy and run this cloud-native express/node.js microservice
 Within IBM, this microservice is [deployed on a OpenShift cluster here](http://smart-adv-get-data-default.apps.riffled.os.fyre.ibm.com/).
 
 
- - ![overview picture](images/overview.png?raw=true "Diagramatic overview of this picture")
+    ![overview picture](images/overview.png?raw=true "Diagramatic overview of this picture")
 
 
 Example endpoint hit, parameters determine getDataType and in this twitter case, the TwitterScreenName to use:
