@@ -10,7 +10,9 @@ Tips how to build, deploy and run this cloud-native express/node.js microservice
 [separate BLOG here](https://medium.com/nikcanvin/how-to-build-a-docker-microservice-application-and-deploy-to-openshift-fdb0769f1b9f).
 Within IBM, this microservice is [deployed on a OpenShift cluster here](http://smart-adv-get-data-default.apps.riffled.os.fyre.ibm.com/).
 
+
  - ![overview picture](images/overview.png?raw=true "Diagramatic overview of this picture")
+
 
 Example endpoint hit, parameters determine getDataType and in this twitter case, the TwitterScreenName to use:
 
