@@ -33,6 +33,9 @@ Note: support for many more channels was planned, but yet to be implemented (suc
 
 Note: currently, the microservice is hardcoded to push the resultant JSON document to a hardcorded COUCHDB instance (but we should probably split the microservice into two parts, the first to produce the JSON document with an option where to the send it and the second to handle store in a COUCHDB. Other places to send/store the data could also be supported in future).
 
-Note: this microservice was created and iteratively developed using [Codewind](https://www.eclipse.org/codewind/); an open source plugin for Eclispe and VS Code IDEs, that simplifies and enhances development in containers by extending industry standard IDEs with features to write, debug, and deploy cloud-native applications. 
+...
 
 ![Codewind logo](images/codewind.png?raw=true "Codewind logo")
+
+***This microservice was created and iteratively developed using [Codewind](https://www.eclipse.org/codewind/).***  
+*Codewind is an open source plugin for Eclispe and VS Code IDEs, that simplifies and enhances development in containers by extending industry standard IDEs with features to write, debug, and deploy cloud-native applications.* 
