@@ -4,7 +4,7 @@ This cloud-native express/node.js microservice, is part of a set which comprise 
 
 # The microservice in this repo
 
-The simple goal for this microservice, was to get data from various supported channels and return well organised consistent business data needed in a JSON document. 
+The simple goal for this microservice is to offer a stateless generic capability, that can get data from various supported channels and return well organised consistent business data needed in a JSON document.
 
 **Example OUTPUT:**   
 In this twitter case, 'twitterUsers' includes followers_count and 'twitterUserTimeline includes an array of tweets (zero is the latest one) each of which has retweet and like counts (in the default Twitter API, 'like' is tagged 'favorite'):
