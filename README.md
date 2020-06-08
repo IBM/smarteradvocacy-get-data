@@ -7,7 +7,7 @@ This cloud-native express/node.js microservice, is part of a set which comprise 
 The simple goal for this microservice, was to get data from various supported channels and return well organised consistent business data needed in a JSON document. 
 
 **Example OUTPUT:**   
-Example JSON output, in this twitter case, 'twitterUsers' includes followers_count and 'twitterUserTimeline includes an array of tweets (zero is the latest one) each of which has retweet and like counts:
+In this twitter case, 'twitterUsers' includes followers_count and 'twitterUserTimeline includes an array of tweets (zero is the latest one) each of which has retweet and like counts:
 
 ![examle twitter JSON output](images/example-twitter-json-output.png?raw=true "examle twitter JSON output")
 
