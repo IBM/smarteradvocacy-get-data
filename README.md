@@ -12,7 +12,7 @@ In this twitter case, 'twitterUsers' includes followers_count and 'twitterUserTi
 ![examle twitter JSON output](images/example-twitter-json-output.png?raw=true "examle twitter JSON output")
 
 **For you to build and deploy:**  
-- For development use, using Codewind is recommended - instructions to follow!
+- For development use, using Codewind is recommended - [separate BLOG here](https://medium.com/nikcanvin/how-to-develop-update-a-docker-microservice-in-a-git-repo-a6118da2d92f).
 - For production use, here are tips how to build, deploy and run this cloud-native express/node.js microservice, are in a 
 [separate BLOG here](https://medium.com/nikcanvin/how-to-build-a-docker-microservice-application-and-deploy-to-openshift-fdb0769f1b9f).
 
